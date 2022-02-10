@@ -4,6 +4,9 @@
  */
 package pkg01_interfaces;
 
+import pkg01_interfaces.models.Bicicleta;
+import pkg01_interfaces.models.Carro;
+
 /**
  *
  * @author capdoo
@@ -14,7 +17,13 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Carro carro = new Carro();
+        Bicicleta bicicleta = new Bicicleta();
+        
+        carro.avanzar();
+        bicicleta.avanzar();
+
     }
     
 }
